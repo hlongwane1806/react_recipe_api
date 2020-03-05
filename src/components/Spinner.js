@@ -8,6 +8,8 @@ const Spinner = ()=>{
     <div>o</div>
     <div>o</div>
     <div>d</div>
+    <div>i</div>
+    <div>e</div>
     
   </div>
  

@@ -7,6 +7,7 @@ import Navbar from './components/nav';
 import Home from './pages/Home';
 import ViewRecipe from './pages/ViewRecipe';
 import NewRecipe from './pages/NewRecipe';
+import Footer from './components/Footer';
 
 
 //<Switch> is for handling the error page
@@ -21,6 +22,7 @@ function App() {
         <Route path ="/recipes/:slug" exact component={ViewRecipe}/>
         
       </Switch>
+      <Footer/>
     </Router>
   );
 }

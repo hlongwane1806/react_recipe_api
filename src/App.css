@@ -1,7 +1,14 @@
 body{
 	margin:0;
 	padding:0;
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
+
+main {
+    flex: 1 0 auto;
+  }
 
 *{
 	margin:0;
@@ -12,10 +19,20 @@ body{
 #footer{
 	
 	width:100%;
-	min-height:200px;
+	min-height:80px;
 	padding:20px;
 	padding-top:10px;
+	z-index:5;
 }
+
+.footer-links{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-size:2rem;
+}
+	
 #contact-title{
 	display:flex;
 	flex-direction:row;
@@ -23,18 +40,31 @@ body{
 	align-items:center;
 	color:#fff;
 }
-#social-media{
-	display:flex;
-	flex-direction:row;
-	justify-content:center;
-	color:#fff;
-}
-#contact-details{
+
+.contact-details, .footer-centered{
 	display:flex;
 	flex-direction: column;
 	align-items:center;
-	color:#000;
+	color:#fff;
 	font-size:1.2em;
+}
+.contact-icon{
+	color: #fff;
+}
+.contact-icon:hover{
+	color:#26a69a;
+}
+.contact-link > a{
+	color:#fff;
+}
+.contact-link> a:hover{
+	color:#26a69a;
+}
+.contact-link{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 .fa{
 	padding-right:10px;
@@ -52,6 +82,7 @@ body{
 	
 }
 
+
 .nav-wrapper{
 	position: fixed;
 	top:0;
@@ -62,9 +93,9 @@ body{
 	position: fixed;
 	top:4rem;
 	left:0;
-	max-height: 60vh;
+	max-height: 50vh;
 	width:100%;
-	
+	z-index: 1;
 }
 .container{
 	margin:0.5rem;

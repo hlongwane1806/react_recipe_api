@@ -26,7 +26,7 @@ return(
             &nbsp;
         <a href="https://www.linkedin.com/in/anele-hlongwane-000685145/" target="_blank"><FaLinkedin className="contact-icon" /></a>
         &nbsp;
-        <a href="https://anelehlongwane.netlify.com/" target="_blank"><FaGlobe className="contact-icon"/></a>
+        <a href="https://anelehlongwane.herokeapp.com/" target="_blank"><FaGlobe className="contact-icon"/></a>
             </div>
                
                 
